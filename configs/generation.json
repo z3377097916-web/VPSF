@@ -1,0 +1,105 @@
+{
+  "seed": 42,
+  "models": "/ABSOLUTE/SERVER/models",
+  "vendor": "../runtime/vendor",
+  "generation": {
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "top_k": 50,
+    "max_new_tokens": 384
+  },
+  "analysis": {
+    "temperature": 0,
+    "top_p": 1.0,
+    "top_k": 50,
+    "max_new_tokens": 1024
+  },
+  "fuzzy": {
+    "top_r": 30,
+    "saved_top_k": 50,
+    "pos_tags": [
+      "NOUN",
+      "PROPN",
+      "NUM",
+      "ADJ",
+      "VERB",
+      "ADV"
+    ],
+    "single_candidate_entropy": "zero"
+  },
+  "scoring": {
+    "alpha": 0.5,
+    "eta": 0.5,
+    "lambda": 0.5,
+    "rho": 1.0,
+    "pool": 22,
+    "strict_q": false,
+    "class_balanced": true,
+    "exclude_refuted": true,
+    "exclude_subjective": true,
+    "rejected_rule": "lowest",
+    "soft_q": true,
+    "foil_calibration": true,
+    "coverage_mode": "object_relation",
+    "frequency_source": "fresh",
+    "guard_rule": "any_refuted",
+    "bs_fallback_rule": "min_double_then_any"
+  },
+  "synonyms": {
+    "bike": "bicycle"
+  },
+  "retries": 2,
+  "prompt_policy": "current",
+  "pos_model": "en_core_web_sm",
+  "extraction": {
+    "mode": "hybrid",
+    "parser_model": "en_core_web_lg",
+    "adjudicate": "risky",
+    "reject_threshold": 0.6,
+    "min_option_mass": 0.3,
+    "calibrate": false,
+    "claim_check": false,
+    "fidelity_audit": true,
+    "pronoun_resolution": true,
+    "direction_consistency": true
+  },
+  "alignment": {
+    "mode": "lemma"
+  },
+  "checklist": {
+    "mode": "compact",
+    "facts": "all",
+    "include_pending": false,
+    "prompt_style": "conditional",
+    "open_detail": true,
+    "open_observation": "short",
+    "relation_module": false,
+    "relation_priority": true,
+    "overflow_policy": "stop",
+    "max_entities": 24,
+    "max_details": 32,
+    "max_detail_questions": 48,
+    "clean_entities": true,
+    "refutation_priority": false
+  },
+  "verification": {
+    "template_a": "yesno",
+    "template_b": "yesno",
+    "template_b_max_new_tokens": null,
+    "scope": "all",
+    "soft_read": true,
+    "foils": 3,
+    "yesno_band": [
+      0.35,
+      0.65
+    ],
+    "yesno_min_mass": 0.3
+  },
+  "batching": {
+    "captions": true,
+    "verification": true,
+    "max_batch": 16
+  },
+  "backend": "llava",
+  "context_len": 4096
+}

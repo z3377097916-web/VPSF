@@ -1,0 +1,11 @@
+{
+  "repo": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "family": "qwen2_5_vl",
+  "top_r": 20,
+  "learning_rate": 4e-06,
+  "micro_batch": 1,
+  "gradient_accumulation": 8,
+  "context_len": 4096,
+  "max_new_tokens": 512,
+  "max_pixels": 1003520
+}

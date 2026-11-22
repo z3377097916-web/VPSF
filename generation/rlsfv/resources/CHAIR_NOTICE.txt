@@ -1,0 +1,5 @@
+chair_synonyms.txt and the special-case rules ported in rlsfv/devset.py come from
+"Object Hallucination in Image Captioning" (Rohrbach, Hendricks, Burns, Darrell,
+Saenko, EMNLP 2018), https://github.com/LisaAnne/Hallucination (utils/chair.py,
+data/synonyms.txt), BSD 2-Clause license. Port to Python 3: pattern.en
+singularize is replaced by the NLTK WordNet noun lemmatizer.

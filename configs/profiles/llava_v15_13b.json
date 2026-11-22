@@ -1,0 +1,9 @@
+{
+  "repo": "liuhaotian/llava-v1.5-13b",
+  "family": "llava",
+  "top_r": 30,
+  "learning_rate": 4e-06,
+  "micro_batch": 4,
+  "gradient_accumulation": 2,
+  "context_len": 2048
+}

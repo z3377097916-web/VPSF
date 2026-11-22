@@ -1,0 +1,15 @@
+{
+  "development_labels_used": true,
+  "runtime_annotations_used": false,
+  "parameters_changed": false,
+  "models": {
+    "results_v1_2.json": {
+      "source_file_sha256": "f9a3feb120fd25a29b917357ebd66c6de9844bb2fa888c78d4407b41f932ed8e",
+      "parameter_content_sha256": "b5bb30bc5594c5f43bbdb09c6f55c5c808d57abfb9215ece74673c1a1b752990"
+    },
+    "hc_reject_models.json": {
+      "source_file_sha256": "c43406173ad31d711d57ad042d97595fc0a104f63911bf274836d0950da2d317",
+      "parameter_content_sha256": "728a85bfaab5727114a5aacea2794cf41b0d217c9ebc0e77fe8d2dcc53aed98c"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "epochs": 2,
+  "learning_rate": 4e-06,
+  "beta": 0.1,
+  "lora_r": 256,
+  "lora_alpha": 512,
+  "lora_dropout": null,
+  "batch_size": null,
+  "gradient_accumulation_steps": null,
+  "weight_decay": null,
+  "warmup_ratio": null,
+  "max_grad_norm": null,
+  "precision": null,
+  "max_length": null,
+  "gradient_checkpointing": true,
+  "save_every_steps": null
+}

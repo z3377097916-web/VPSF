@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "models": "/REPLACE_WITH_SERVER_PATH/models",
+  "vendor": "../../rlsf_v_amber/vendor",
+  "generation": {"temperature": 1.0, "top_p": 0.9, "top_k": 50, "max_new_tokens": 1024},
+  "analysis": {"temperature": 0, "top_p": 1.0, "top_k": 50, "max_new_tokens": 1024},
+  "fuzzy": {"top_r": 30, "saved_top_k": 50, "pos_tags": ["NOUN", "PROPN", "NUM", "ADJ", "VERB", "ADV"]},
+  "scoring": {"alpha": 0.5, "eta": 0.5, "lambda": 0.5, "rho": 1.0, "pool": 22, "strict_q": false, "class_balanced": true},
+  "synonyms": {"bike": "bicycle"},
+  "retries": 2,
+  "prompt_policy": "cumulative",
+  "pos_model": "en_core_web_sm"
+}

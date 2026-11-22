@@ -1,0 +1,32 @@
+{
+  "data_policy": "e3_self_feedback_purity_v2",
+  "parallel_mode": "four_gpu_joint_e3",
+  "checkpoint_policy": "last_epoch_2",
+  "model_path": null,
+  "vision_path": null,
+  "output_root": null,
+  "gpu_ids": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "max_length": 2048,
+  "micro_batch": 8,
+  "gradient_accumulation": 1,
+  "epochs": 2,
+  "learning_rate": 4e-06,
+  "beta": 0.1,
+  "lora_rank": 256,
+  "lora_alpha": 512,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.05,
+  "seed": 42,
+  "evaluation_manifest": null,
+  "workers": 4,
+  "train_image_root": null,
+  "training_image_manifest": null,
+  "feature_directory": null,
+  "expected_source_images": 10000,
+  "purity_rule": "strict_p_coverage_diagnostic_v2"
+}

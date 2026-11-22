@@ -1,0 +1,13 @@
+{
+  "vpsf_v_opt4_dpo": {
+    "file_name": "vpsf_v_opt4_dpo.json",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected",
+      "images": "images"
+    }
+  }
+}

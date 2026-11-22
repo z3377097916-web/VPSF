@@ -1,0 +1,46 @@
+{
+  "training_source": {
+    "status": "required",
+    "value": null
+  },
+  "train_manifest": {
+    "status": "required",
+    "value": null
+  },
+  "dev_manifest": {
+    "status": "required",
+    "value": null
+  },
+  "test_manifest": {
+    "status": "required",
+    "value": null
+  },
+  "diagnostic_manifest": {
+    "status": "required",
+    "value": null
+  },
+  "near_duplicate_audit": {
+    "status": "required",
+    "value": null
+  },
+  "groups": {
+    "status": "required",
+    "value": null
+  },
+  "diagnostic_plan": {
+    "status": "required",
+    "value": null
+  },
+  "budget": {
+    "status": "required",
+    "value": null
+  },
+  "success_reference_id": {
+    "status": "required",
+    "value": null
+  },
+  "relation_qa_primary_metric": {
+    "status": "required",
+    "value": null
+  }
+}

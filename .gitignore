@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# OS & Editors
+.DS_Store
+.vscode/
+.idea/
+
+# Runtime outputs, downloaded images, and checkpoints
+work/
+checkpoints/
+saves/
+logs/
+nltk_data/
+data/RLAIF_dataset/images/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.json.gz
